@@ -12,6 +12,11 @@ const fileManager = [
         to: '/',
     },
     {
+        name: 'Users',
+        icon: <FolderOutlinedIcon fontSize='small' />,
+        to: '/users',
+    },
+    {
         name: 'Recent',
         icon: <AccessTimeOutlinedIcon fontSize='small' />,
         to: '/recent',
