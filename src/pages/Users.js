@@ -1,6 +1,7 @@
 import React from 'react'
 import img from "./../components/images/hr-text.png"
 import logo from "./../components/images/hr-text.png"
+import './Users.css'
 
 const Users = () => {
   return (
@@ -75,7 +76,7 @@ const Users = () => {
       </div>
       <div className="row mx-3 my-2">
         <div class="table-responsive">
-          <table class="table table-bordered">
+          <table class="table-bordered">
             <thead class="">
               <tr>
                 <th>Client</th>
@@ -317,7 +318,7 @@ const Users = () => {
       </div>
       <div className="row">
         <div className="col-4">
-          <div className="card p-2">
+          <div className="border p-2">
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex align-items-center col-8 py-2">
                 <img
@@ -380,7 +381,7 @@ const Users = () => {
           </div>
         </div>
         <div className="col-4">
-          <div className="card p-2">
+          <div className="border p-2">
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex align-items-center col-8 py-2">
                 <img
@@ -443,199 +444,7 @@ const Users = () => {
           </div>
         </div>
         <div className="col-4">
-          <div className="card p-2">
-            <div className="d-flex justify-content-between align-items-center">
-              <div className="d-flex align-items-center col-8 py-2">
-                <img
-                  src={logo}
-                  className="rounded-circle"
-                  style={{ height: "30px" }}
-                  alt=""
-                />
-                <div>
-                  <h6 className="m-0">
-                    April Kapner{" "}
-                    <small
-                      className="badge bg-success"
-                      style={{ fontSize: "10px" }}
-                    >
-                      Active
-                    </small>
-                  </h6>
-                  <small style={{ fontSize: "11px" }}>HR Manager</small>
-                </div>
-              </div>
-              <div className="btn btn-primary">Expand</div>
-            </div>
-
-            <div className="d-flex align-items-center">
-              <img
-                src={logo}
-                className="rounded-circle"
-                style={{ height: "30px" }}
-                alt=""
-              />
-              <h6 className="m-0" style={{ fontSize: "13px" }}>
-                England, United Kingdom,{" "}
-              </h6>
-              <p className="m-0" style={{ fontSize: "13px" }}>
-                192.162.33455
-              </p>
-            </div>
-
-            <div className="d-flex align-items-center py-2">
-              <img
-                src={logo}
-                className="rounded-circle"
-                style={{ height: "30px" }}
-                alt=""
-              />
-              <p className="m-0">02/02/2021</p>
-            </div>
-            <p className="m-0" style={{ fontSize: "11px" }}>
-              52.60 GB / 100 GB Used
-            </p>
-            <div className="progress" style={{ height: "5px" }}>
-              <div className="progress-bar col-6 bg-info"></div>
-            </div>
-            <p>Total Subsriptions</p>
-            <div className="d-flex justify-content-center gap-3">
-              <div className="btn btn-outline-success  col-5">Active</div>
-              <div className="btn btn-outline-danger col-5">Disable</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="row mt-3">
-        <div className="col-4">
-          <div className="card p-2">
-            <div className="d-flex justify-content-between align-items-center">
-              <div className="d-flex align-items-center col-8 py-2">
-                <img
-                  src={logo}
-                  className="rounded-circle"
-                  style={{ height: "30px" }}
-                  alt=""
-                />
-                <div>
-                  <h6 className="m-0">
-                    April Kapner{" "}
-                    <small
-                      className="badge bg-success"
-                      style={{ fontSize: "10px" }}
-                    >
-                      Active
-                    </small>
-                  </h6>
-                  <small style={{ fontSize: "11px" }}>HR Manager</small>
-                </div>
-              </div>
-              <div className="btn btn-primary">Expand</div>
-            </div>
-
-            <div className="d-flex align-items-center">
-              <img
-                src={logo}
-                className="rounded-circle"
-                style={{ height: "30px" }}
-                alt=""
-              />
-              <h6 className="m-0" style={{ fontSize: "13px" }}>
-                England, United Kingdom,{" "}
-              </h6>
-              <p className="m-0" style={{ fontSize: "13px" }}>
-                192.162.33455
-              </p>
-            </div>
-
-            <div className="d-flex align-items-center py-2">
-              <img
-                src={logo}
-                className="rounded-circle"
-                style={{ height: "30px" }}
-                alt=""
-              />
-              <p className="m-0">02/02/2021</p>
-            </div>
-            <p className="m-0" style={{ fontSize: "11px" }}>
-              52.60 GB / 100 GB Used
-            </p>
-            <div className="progress" style={{ height: "5px" }}>
-              <div className="progress-bar col-6 bg-info"></div>
-            </div>
-            <p>Total Subsriptions</p>
-            <div className="d-flex justify-content-center gap-3">
-              <div className="btn btn-outline-success  col-5">Active</div>
-              <div className="btn btn-outline-danger col-5">Disable</div>
-            </div>
-          </div>
-        </div>
-        <div className="col-4">
-          <div className="card p-2">
-            <div className="d-flex justify-content-between align-items-center">
-              <div className="d-flex align-items-center col-8 py-2">
-                <img
-                  src={logo}
-                  className="rounded-circle"
-                  style={{ height: "30px" }}
-                  alt=""
-                />
-                <div>
-                  <h6 className="m-0">
-                    April Kapner{" "}
-                    <small
-                      className="badge bg-success"
-                      style={{ fontSize: "10px" }}
-                    >
-                      Active
-                    </small>
-                  </h6>
-                  <small style={{ fontSize: "11px" }}>HR Manager</small>
-                </div>
-              </div>
-              <div className="btn btn-primary">Expand</div>
-            </div>
-
-            <div className="d-flex align-items-center">
-              <img
-                src={logo}
-                className="rounded-circle"
-                style={{ height: "30px" }}
-                alt=""
-              />
-              <h6 className="m-0" style={{ fontSize: "13px" }}>
-                England, United Kingdom,{" "}
-              </h6>
-              <p className="m-0" style={{ fontSize: "13px" }}>
-                192.162.33455
-              </p>
-            </div>
-
-            <div className="d-flex align-items-center py-2">
-              <img
-                src={logo}
-                className="rounded-circle"
-                style={{ height: "30px" }}
-                alt=""
-              />
-              <p className="m-0">02/02/2021</p>
-            </div>
-            <p className="m-0" style={{ fontSize: "11px" }}>
-              52.60 GB / 100 GB Used
-            </p>
-            <div className="progress" style={{ height: "5px" }}>
-              <div className="progress-bar col-6 bg-info"></div>
-            </div>
-            <p>Total Subsriptions</p>
-            <div className="d-flex justify-content-center gap-3">
-              <div className="btn btn-outline-success  col-5">Active</div>
-              <div className="btn btn-outline-danger col-5">Disable</div>
-            </div>
-          </div>
-        </div>
-        <div className="col-4">
-          <div className="card p-2">
+          <div className="border p-2">
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex align-items-center col-8 py-2">
                 <img
@@ -701,7 +510,199 @@ const Users = () => {
 
       <div className="row mt-3">
         <div className="col-4">
-        <div className="card p-2">
+          <div className="border p-2">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="d-flex align-items-center col-8 py-2">
+                <img
+                  src={logo}
+                  className="rounded-circle"
+                  style={{ height: "30px" }}
+                  alt=""
+                />
+                <div>
+                  <h6 className="m-0">
+                    April Kapner{" "}
+                    <small
+                      className="badge bg-success"
+                      style={{ fontSize: "10px" }}
+                    >
+                      Active
+                    </small>
+                  </h6>
+                  <small style={{ fontSize: "11px" }}>HR Manager</small>
+                </div>
+              </div>
+              <div className="btn btn-primary">Expand</div>
+            </div>
+
+            <div className="d-flex align-items-center">
+              <img
+                src={logo}
+                className="rounded-circle"
+                style={{ height: "30px" }}
+                alt=""
+              />
+              <h6 className="m-0" style={{ fontSize: "13px" }}>
+                England, United Kingdom,{" "}
+              </h6>
+              <p className="m-0" style={{ fontSize: "13px" }}>
+                192.162.33455
+              </p>
+            </div>
+
+            <div className="d-flex align-items-center py-2">
+              <img
+                src={logo}
+                className="rounded-circle"
+                style={{ height: "30px" }}
+                alt=""
+              />
+              <p className="m-0">02/02/2021</p>
+            </div>
+            <p className="m-0" style={{ fontSize: "11px" }}>
+              52.60 GB / 100 GB Used
+            </p>
+            <div className="progress" style={{ height: "5px" }}>
+              <div className="progress-bar col-6 bg-info"></div>
+            </div>
+            <p>Total Subsriptions</p>
+            <div className="d-flex justify-content-center gap-3">
+              <div className="btn btn-outline-success  col-5">Active</div>
+              <div className="btn btn-outline-danger col-5">Disable</div>
+            </div>
+          </div>
+        </div>
+        <div className="col-4">
+          <div className="border p-2">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="d-flex align-items-center col-8 py-2">
+                <img
+                  src={logo}
+                  className="rounded-circle"
+                  style={{ height: "30px" }}
+                  alt=""
+                />
+                <div>
+                  <h6 className="m-0">
+                    April Kapner{" "}
+                    <small
+                      className="badge bg-success"
+                      style={{ fontSize: "10px" }}
+                    >
+                      Active
+                    </small>
+                  </h6>
+                  <small style={{ fontSize: "11px" }}>HR Manager</small>
+                </div>
+              </div>
+              <div className="btn btn-primary">Expand</div>
+            </div>
+
+            <div className="d-flex align-items-center">
+              <img
+                src={logo}
+                className="rounded-circle"
+                style={{ height: "30px" }}
+                alt=""
+              />
+              <h6 className="m-0" style={{ fontSize: "13px" }}>
+                England, United Kingdom,{" "}
+              </h6>
+              <p className="m-0" style={{ fontSize: "13px" }}>
+                192.162.33455
+              </p>
+            </div>
+
+            <div className="d-flex align-items-center py-2">
+              <img
+                src={logo}
+                className="rounded-circle"
+                style={{ height: "30px" }}
+                alt=""
+              />
+              <p className="m-0">02/02/2021</p>
+            </div>
+            <p className="m-0" style={{ fontSize: "11px" }}>
+              52.60 GB / 100 GB Used
+            </p>
+            <div className="progress" style={{ height: "5px" }}>
+              <div className="progress-bar col-6 bg-info"></div>
+            </div>
+            <p>Total Subsriptions</p>
+            <div className="d-flex justify-content-center gap-3">
+              <div className="btn btn-outline-success  col-5">Active</div>
+              <div className="btn btn-outline-danger col-5">Disable</div>
+            </div>
+          </div>
+        </div>
+        <div className="col-4">
+          <div className="border p-2">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="d-flex align-items-center col-8 py-2">
+                <img
+                  src={logo}
+                  className="rounded-circle"
+                  style={{ height: "30px" }}
+                  alt=""
+                />
+                <div>
+                  <h6 className="m-0">
+                    April Kapner{" "}
+                    <small
+                      className="badge bg-success"
+                      style={{ fontSize: "10px" }}
+                    >
+                      Active
+                    </small>
+                  </h6>
+                  <small style={{ fontSize: "11px" }}>HR Manager</small>
+                </div>
+              </div>
+              <div className="btn btn-primary">Expand</div>
+            </div>
+
+            <div className="d-flex align-items-center">
+              <img
+                src={logo}
+                className="rounded-circle"
+                style={{ height: "30px" }}
+                alt=""
+              />
+              <h6 className="m-0" style={{ fontSize: "13px" }}>
+                England, United Kingdom,{" "}
+              </h6>
+              <p className="m-0" style={{ fontSize: "13px" }}>
+                192.162.33455
+              </p>
+            </div>
+
+            <div className="d-flex align-items-center py-2">
+              <img
+                src={logo}
+                className="rounded-circle"
+                style={{ height: "30px" }}
+                alt=""
+              />
+              <p className="m-0">02/02/2021</p>
+            </div>
+            <p className="m-0" style={{ fontSize: "11px" }}>
+              52.60 GB / 100 GB Used
+            </p>
+            <div className="progress" style={{ height: "5px" }}>
+              <div className="progress-bar col-6 bg-info"></div>
+            </div>
+            <p>Total Subsriptions</p>
+            <div className="d-flex justify-content-center gap-3">
+              <div className="btn btn-outline-success  col-5">Active</div>
+              <div className="btn btn-outline-danger col-5">Disable</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row mt-3">
+        <div className="col-4">
+        <div className="border p-2">
         <div className="d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center col-8 py-2">
             <img src={logo} className="rounded-circle" style={{height:'30px'}} alt="" />
@@ -736,7 +737,7 @@ const Users = () => {
       </div>
         </div>
         <div className="col-4">
-        <div className="card p-2">
+        <div className="border p-2">
         <div className="d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center col-8 py-2">
             <img src={logo} className="rounded-circle" style={{height:'30px'}} alt="" />
@@ -771,7 +772,7 @@ const Users = () => {
       </div>
         </div>
         <div className="col-4">
-        <div className="card p-2">
+        <div className="border p-2">
         <div className="d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center col-8 py-2">
             <img src={logo} className="rounded-circle" style={{height:'30px'}} alt="" />
@@ -809,7 +810,7 @@ const Users = () => {
 
       <div className="row mt-3">
         <div className="col-4">
-        <div className="card p-2">
+        <div className="border p-2">
         <div className="d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center col-8 py-2">
             <img src={logo} className="rounded-circle" style={{height:'30px'}} alt="" />
@@ -844,7 +845,7 @@ const Users = () => {
       </div>
         </div>
         <div className="col-4">
-        <div className="card p-2">
+        <div className="border p-2">
         <div className="d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center col-8 py-2">
             <img src={logo} className="rounded-circle" style={{height:'30px'}} alt="" />
@@ -879,7 +880,7 @@ const Users = () => {
       </div>
         </div>
         <div className="col-4">
-        <div className="card p-2">
+        <div className="border p-2">
         <div className="d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center col-8 py-2">
             <img src={logo} className="rounded-circle" style={{height:'30px'}} alt="" />
@@ -974,7 +975,7 @@ const Users = () => {
 
 
 
-    <div className="card col-11 mx-auto p-3">
+    <div className="border col-11 mx-auto p-3">
       <h4>Storage</h4>
       <p>Storage</p>
       <div className="progress" style={{ height: "7px" }}>
@@ -982,7 +983,7 @@ const Users = () => {
       </div>
       <p>11.25 GB Used / 100 GB</p>
       <h3>Subscriptions</h3>
-      <table className="table table-bordered">
+      <table className="table-bordered">
         <thead>
           <tr>
             <th>Product</th>

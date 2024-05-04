@@ -4,6 +4,7 @@ import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import PeopleIcon from '@mui/icons-material/People';
 import PersonIcon from '@mui/icons-material/Person';
 import FolderOutlinedIcon from '@mui/icons-material/FolderOutlined';
+import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 
 const fileManager = [
     {
@@ -13,8 +14,13 @@ const fileManager = [
     },
     {
         name: 'Users',
-        icon: <FolderOutlinedIcon fontSize='small' />,
+        icon: <PersonIcon fontSize='small' />,
         to: '/users',
+    },
+    {
+        name: 'Users Details',
+        icon: <ManageAccountsIcon fontSize='small' />,
+        to: '/user',
     },
     {
         name: 'Recent',
