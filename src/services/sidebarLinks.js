@@ -4,6 +4,10 @@ import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 import PeopleIcon from '@mui/icons-material/People';
 import PersonIcon from '@mui/icons-material/Person';
 import FolderOutlinedIcon from '@mui/icons-material/FolderOutlined';
+import PrivacyTipOutlinedIcon from '@mui/icons-material/PrivacyTipOutlined';
+import CloudOutlinedIcon from '@mui/icons-material/CloudOutlined';
+import PaymentIcon from '@mui/icons-material/Payment';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const fileManager = [
     {
@@ -15,6 +19,26 @@ const fileManager = [
         name: 'Recent',
         icon: <AccessTimeOutlinedIcon fontSize='small' />,
         to: '/recent',
+    },
+    {
+        name: 'Data and Privacy',
+        icon: <PrivacyTipOutlinedIcon fontSize='small' />,
+        to: '/data',
+    },
+    {
+        name: 'Storage',
+        icon: <CloudOutlinedIcon fontSize='small' />,
+        to: '/storage',
+    },
+    {
+        name: 'Payment & Subs',
+        icon: <PaymentIcon fontSize='small' />,
+        to: '/payment',
+    },
+    {
+        name: 'Personal Info',
+        icon: <AccountCircleIcon fontSize='small' />,
+        to: '/personal',
     },
     {
         name: 'Favorite',

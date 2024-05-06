@@ -1,0 +1,18 @@
+.card2-img img{
+    width: 80%;
+}
+@media (max-width: 768px) {
+    .card2-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card2-img img{
+        width: 100%;
+        margin-left: auto;
+        display: block;
+        /* background-color: red; */
+    }
+    
+}
+

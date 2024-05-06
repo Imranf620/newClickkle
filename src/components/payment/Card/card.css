@@ -1,0 +1,32 @@
+
+.cardi a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.card-img{
+    /* width: 30%; */
+    /* height: 20%; */
+    /* background-color: aqua; */
+    
+}
+
+.card-img img{
+    /* height: 100%; */
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .card-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-img img{
+        width: 100%;
+        margin-left: auto;
+        display: block;
+        /* background-color: red; */
+    }
+   
+    
+}

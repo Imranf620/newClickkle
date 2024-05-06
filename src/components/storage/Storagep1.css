@@ -1,0 +1,489 @@
+/* body {
+    background-color: black;
+    color: white;
+} */
+
+.str1 .infoI {
+    font-size: x-large;
+}
+
+.mobSec{
+    padding: 0 50px;
+}
+
+.str1 nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.str1 .cloudI {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: block;
+}
+
+.str1 .storage {
+    padding: 10px;
+    text-align: center;
+}
+
+.str1 .buton {
+    height: 8vh;
+    margin: auto;
+    padding: 10px 15px;
+    display: block;
+
+    border-radius: 10px;
+}
+
+.str1 .dd:hover {
+    height: 8vh;
+    margin: auto;
+    padding: 10px 15px;
+    display: block;
+    opacity: .7;
+    border-color: blue;
+    border-radius: 10px;
+}
+.str1 .total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.str1 .barImg{
+    width: 100%; 
+}
+.str1 .Sdetails{
+    width: 60%;
+margin: auto;
+display: block;
+}
+.str1 .singleUsed{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+.str1 .link{
+    color: blue;
+    margin-left: 10px;
+}
+.str1 .usedS{
+    width: 70%;
+margin: auto;
+display: block;
+}
+.str1 .bar{
+    padding-bottom: 10px;
+}
+.str1 .violet{
+    color: rgb(71, 71, 196);
+    margin-right: 10px;
+}
+.str1 .green{
+    color: rgb(43, 235, 43);
+    margin-right: 10px;
+
+}
+.str1 .red{
+    color: rgb(204, 33, 33);
+    margin-right: 10px;
+
+}
+.str1 .blue{
+    color: rgb(45, 219, 239);
+    margin-right: 10px;
+
+}
+.str1 .yellow{
+    color: orange;
+    margin-right: 10px;
+
+}
+.str1 .brown{
+    color: rgb(196, 92, 109);
+    margin-right: 10px;
+
+}
+.str1 .usedLink{
+   display: inline-flex;
+}
+.str1 .tt{
+    width: 100%;
+    padding: 10px 0px;
+}
+.str1 .uu{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px ;
+}
+.str1 .vv{
+    font-size: 7vh;
+    margin-right: 10px;
+}
+.str1 .ww{
+    color: red;
+    font-size: smaller;
+}
+
+
+
+
+
+.str2 nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    width: 90%;
+    margin: auto;
+  }
+  .str2 nav i {
+    font-size: 30px;
+  }
+  
+  .str2 .container {
+    border: 1px solid rgb(201, 193, 193); /* One pixel border on the right */
+    overflow: hidden; /* To contain floated elements */
+    width: 70%;
+    border-radius: 5px;
+  }
+  
+  .str2 .paragraph {
+    float: left; /* Paragraph on the right */
+    width: 70%; /* Adjust width as needed */
+    padding: 20px; /* Add padding for better readability */
+  }
+  
+  .str2 .image {
+    float: right; /* Image on the left */
+    width: 25%; /* Adjust width as needed */
+    padding: 20px; /* Add padding for better readability */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  .str2 .blue {
+    color: rgb(25, 97, 221);
+  }
+  .str2 .heading {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 20px 0px;
+  }
+  
+  .str2 .backupIcon {
+    padding-right: 5px;
+  }
+  .str2 .data {
+    height: auto;
+    width: 70%;
+    margin: auto;
+    border: 1px solid rgb(201, 193, 193);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    padding-top: 3px;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .str2 .i img {
+      width: 10%;
+    }
+  }
+  @media screen and (max-width: 424px) {
+    .str2 .image {
+      width: 80%;
+    }
+  }
+  
+
+  
+
+.Str3 nav {
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 20px 10px;
+  }
+  .Str3 nav i {
+    font-size: 30px;
+  }
+  .Str3 .top-content {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .Str3 .clickBtn {
+    border: none;
+    background-color: transparent;
+    color: rgb(25, 97, 221);
+    border-bottom: 1px solid rgb(25, 97, 221);
+  }
+  .Str3 .btns {
+    margin: auto;
+    padding: 10px;
+    width: 30%;
+    display: block;
+    
+  
+  }
+  .Str3 .save {
+    font-size: 10px;
+    margin: 0px;
+  }
+  .Str3 .dd:hover{
+    background: gray;
+  }
+  
+  .Str3 .btnText {
+    height: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 30px 0px;
+    text-align: center;
+    
+    background-color: transparent;
+  }
+  .Str3 .btnText:hover {
+    color: rgb(25, 97, 221);
+    background-color: transparent;
+    border: 1px solid rgb(25, 97, 221);
+  }
+  
+  @media screen and (max-width: 425px) {
+    .Str3 .cc {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (min-width: 425px) {
+    .Str3 .cc {
+      width: 70%;
+    }
+    
+  }
+  @media screen and (min-width: 700px) {
+    .Str3 .cc {
+      width: 35%;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .Str3 .cc {
+      width: 22%;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .Str3 .cc {
+      width: 30%;
+    }
+  }
+  
+  @media screen and (max-width: 1025px) {
+    .Str4 .cardsSection {
+      width: 90%;
+    }
+  
+   .Str4 .lBtn {
+   
+      width: 70%;
+  
+    }
+  }
+  
+  
+  @media screen and (max-width: 925px) {
+    .Str3 .btns{
+      width: 40%;
+    }
+  
+  }
+  @media screen and (max-width: 790px) {
+    .Str3 .btns{
+      width: 50%;
+    }
+  
+  }
+  @media screen and (max-width: 550px) {
+    .Str3 .btns{
+      width: 70%;
+    }
+  
+  }
+  @media screen and (max-width: 420px) {
+    .Str3 .btns{
+      width: 80%;
+    }
+  
+  }
+
+
+  /* body {
+    background-color: black;
+    color: white;
+} */
+
+.Str4 .infoIcon {
+    font-size: x-large;
+  }
+  
+  .Str4 nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin: 10px;
+  }
+  
+  .Str4 .singleCard {
+    padding: 10px 0px;
+    min-height: 65vh;
+    max-height: auto;
+    width: 30vw;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .Str4 .singleCard:hover {
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, rgb(7, 90, 159), rgb(11, 169, 156)) 1;
+  }
+  
+  .Str4 p {
+    font-size: small;
+  }
+  
+  .Str4 .cardsSection {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  
+  .Str4 .cards {
+    display: flex;
+  }
+  
+  .Str4 .lBtn {
+    margin: auto;
+    padding: 10px;
+    width: 30%;
+    display: block;
+  }
+  
+  .Str4 .off {
+    font-size: 8px;
+  }
+  
+
+
+  
+  .Str4 .planBtn {
+    margin: 10px;
+    padding: 7px 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    /* color: white; */
+    border-radius: 10px;
+  }
+  
+  .Str4 .planBtn:hover {
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(25, 97, 221);
+    border: 1px solid gray;
+    color: rgb(169, 169, 169);
+    border-radius: 10px;
+  }
+  
+  .Str4 .l {
+    margin-top: 40px;
+    padding: 7px 10px;
+    background-color: transparent;
+    border: 1px solid rgb(31, 82, 202);
+    color: rgb(31, 82, 202);
+    border-radius: 10px;
+  }
+  
+  .Str4 .l:hover {
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(25, 97, 221);
+    border: 1px solid gray;
+    color: rgb(236, 224, 224);
+    border-radius: 10px;
+  }
+  
+  .Str4 hr {
+    width: 80%;
+    margin: auto;
+    display: block;
+    background-color: gray;
+  }
+  
+  .Str4 .cardCont {
+    text-align: center;
+    min-height: 35vh;
+    max-height: auto;
+  }
+  
+  .Str4 .tick {
+    color: blue;
+  }
+  
+  .Str4 .features {
+    text-align: justify;
+    padding: 10px;
+  }
+  
+  .Str4 .save {
+    color: blue;
+  }
+  
+  @media screen and (max-width: 1025px) {
+    .Str4 .cardsSection {
+      width: 90%;
+    }
+  
+   .Str4 .lBtn {
+   
+      width: 70%;
+  
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+    .Str4 .d {
+      width: 40%;
+    }
+  
+   
+  }
+  
+  @media screen and (max-width: 426px) {
+    .Str4 .f {
+      width: 45%;
+    }
+  
+    .Str4 .d {
+      width: 74%;
+    }
+  
+    .Str4 .cards {
+      display: block;
+    }
+  
+    .Str4 .singleCard {
+      width: 70%;
+      margin: auto;
+      display: block;
+    }
+  }
+  
+  
+  
+  

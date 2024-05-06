@@ -1,0 +1,53 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+.opacity{
+    opacity: 0.5;
+}
+.security_image{
+    width: 110px;
+}
+.dicons_image{
+    width:60px;
+}
+
+.section {
+    margin: 1rem 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    padding: 1rem;
+   
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.css-1hx0m72{
+    height: auto;
+}
+
+.proImg{
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   overflow: hidden;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
